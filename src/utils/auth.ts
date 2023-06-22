@@ -65,6 +65,7 @@ export const authOptions: NextAuthOptions = {
         }
       }
 
+      // @ts-ignore
       if (jwt) token.firebaseToken = jwt;
 
       return token;
